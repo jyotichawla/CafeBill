@@ -42,7 +42,7 @@ class TestCafeBill extends WordSpecLike with Matchers {
   }
 
   "CafeBill app" should {
-    "return 5.0 for coffee and cheese sandwich" in {
+    "return 5.0 for cola and steak sandwich" in {
       CafeBill.calculateBill(Array("cola", "steak sandwich")) shouldBe 5.0
     }
   }
